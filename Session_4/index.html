@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <script src="app.js" defer></script>
+        <title>Recipes Book</title>
+    </head>
+<body>
+    <header>
+        <h1>Recipes Book</h1>
+        <a href="">Recipes</a>
+        <a href="">About Us</a>
+        <a href="">Contact</a>
+    </header>
+    <main>
+        <h2>My Favourite Recipes</h2>
+        <form>
+            <br>
+            <p>Add new recipe:</p>
+            <label for="name">Name: </label>
+            <input type="text" name="name" id="name">
+            <br>
+
+            <br>
+            <label for="cuisine">Cuisine: </label>
+            <input type="text" name="cuisnie" id="cuisine">
+            <br>
+
+            <br>
+            <label for="time">Time: </label>
+            <input type="text" name="time" id="time">
+            <br>
+
+            <br>
+            <label for="ingredients">Ingredients (put new ingredients on new line): </label>
+            <textarea name="ingredients" id="ingredients"></textarea>
+            <br>
+
+            <br>
+            <label for="steps">Steps:(each step on a new line!): </label>
+            <textarea name="steps" id="steps"></textarea>
+            <br>
+            <br>
+            <input type="submit" value="Add new recipe">
+        </form>
+        <ul id="recipe-list">
+            
+        </ul>
+    </main>
+    <footer>
+        <a href="">About us</a>
+        <a href="">Contact</a>
+        <a href="">Terms of use</a>
+    </footer>
+</body>
+</html>
