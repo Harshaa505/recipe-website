@@ -1,18 +1,18 @@
-header{
+header {
     background-color: rgb(234, 117, 21);
-    color:aliceblue;
-    padding:10px 20px;
-    text-align: center; 
+    color: aliceblue;
+    padding: 10px 20px;
+    text-align: center;
     position: sticky;
     top: 0;
     z-index: 1000;
 }
 
 body {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin:0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
     background-color: rgb(248, 225, 161);
-    color:black
+    color: black
 }
 
 
@@ -22,6 +22,17 @@ footer {
     color: white;
     text-align: center;
     padding: 10px;
-    margin-top: auto; /* Push the footer to the bottom */
-   }
-   
+    margin-top: auto;
+    /* Push the footer to the bottom */
+}
+
+h1 {
+    font-family: "The Nautigal", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header a{
+    text-decoration: none;
+    color: #f8f8f8;
+}
